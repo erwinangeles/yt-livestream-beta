@@ -45,11 +45,11 @@ return [
 
 'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'db4free.net'),
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'laravel_ytlivest'),
+            'database' => env('DB_DATABASE', 'heroku_bec0bb4fa75a937'),
             'username' => env('DB_USERNAME', 'laravel_root_ean'),
-            'password' => env('DB_PASSWORD', '$LYou$tube20192ewdas'),
+            'password' => env('DB_PASSWORD', 'a796ff5a'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
