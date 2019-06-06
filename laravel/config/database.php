@@ -42,14 +42,13 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
-
 'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'heroku_bec0bb4fa75a937'),
+            'database' => env('DB_DATABASE', 'laravel_ytlivest'),
             'username' => env('DB_USERNAME', 'laravel_root_ean'),
-            'password' => env('DB_PASSWORD', 'a796ff5a'),
+            'password' => env('DB_PASSWORD', '$LYou$tube20192ewdas'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
